@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#grid {
+  margin: auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#grid td {
+  border: 1px solid gray;
+}
+
+#grid input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  display: block;
+
+  width: 20px;
+  height: 20px;
+}
+
+#grid input[type="checkbox"]:checked {
+  background-color: black;
+}
